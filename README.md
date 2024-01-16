@@ -4,11 +4,11 @@ cd pm-case
 
 Bağımlılıkları yükleyin:
 
-npm install
+yarn install
 
 Çalıştırma
 Proje bağımlılıkları kurulduktan sonra, aşağıdaki komutla projeyi başlatabilirsiniz:
 
-npm run dev
+yarn dev
 
 Tarayıcınızda http://localhost:3000 adresine giderek uygulamayı görebilirsiniz.
