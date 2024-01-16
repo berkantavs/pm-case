@@ -1,0 +1,152 @@
+body {
+    background-color: #f8f8f8 !important;
+}
+
+.wrapper {
+    display: flex;
+    height: 100vh;
+}
+
+.menu-col {
+    background-color: #fff;
+    color: rgba(0, 0, 0, .9);
+    border-radius: 0px 25px 25px 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+.menu-col.closed {
+    max-height: 80px;
+}
+
+.menu-col.opened {
+    padding-bottom: 30px;
+}
+
+.menu {
+    margin-top: 20px;
+}
+
+.menu .nav-link {
+    color: rgba(0, 0, 0, .6);
+}
+
+.menu .nav-link.active {
+    background-color: #34495e;
+    color: #ecf0f1;
+}
+
+.content-col {
+    padding: 20px;
+}
+
+.full-width-row {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    height: 100vh;
+}
+
+.header {
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    background-color: #30cd8a;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header .navbar {
+    background-color: #2c3e50 !important;
+    border-radius: 20px;
+}
+
+.login-container {
+    height: 100vh;
+}
+
+.wallpaper-col {
+    background-color: #f8f8f8;
+}
+
+.login-card-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-card {
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.header .search-input {
+    border-radius: 20px;
+}
+
+.index-breadcrumb {
+    background-color: transparent !important;
+    padding: 0px !important;
+}
+
+.default-card {
+    box-shadow: 0 0 2rem 0 rgba(136, 152, 170, .15);
+    background-color: white;
+    border: none !important;
+}
+
+.card-title {
+    color: #32325d;
+}
+
+.card-text {
+    color: #737e98;
+}
+
+.table {
+    box-shadow: 0 0 2rem 0 rgba(136, 152, 170, .15);
+    background-color: white;
+    border: none !important;
+    border-radius: 20px;
+}
+
+.panel.panel-default {
+    border-top-width: 3px;
+}
+
+.panel {
+    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .14), 0 2px 2px 0 rgba(0, 0, 0, .098), 0 1px 5px 0 rgba(0, 0, 0, .084);
+    border: 0;
+    border-radius: 4px;
+    margin-bottom: 16px;
+}
+
+.thumb96 {
+    width: 96px !important;
+    height: 96px !important;
+}
+
+.thumb48 {
+    width: 48px !important;
+    height: 48px !important;
+}
+
+.btn-success,
+.btn-success:hover,
+.btn-success:active,
+.btn-success:focus {
+    background-color: #30cd8a !important;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.dropdown-toggle {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+    padding: 0px !important;
+    text-transform: uppercase;
+}
