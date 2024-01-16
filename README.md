@@ -1,4 +1,4 @@
-# personal-management-frontend
+# pm-case-frontend
 
 cd pm-case
 
